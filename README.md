@@ -1,4 +1,4 @@
 Készítette: 
-Baranyai András
-Molnár Levente
+Baranyai András,
+Molnár Levente,
 Balog Milán
