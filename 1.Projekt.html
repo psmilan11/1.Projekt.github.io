@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A World Wide Web Születése</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #1a1a2e;
+    color: #00ffcc;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #16162b;
+    border: 2px solid #00ffcc;
+    border-radius: 8px;
+    padding: 30px 40px;
+    box-shadow: 0 0 15px #00ffcc, 0 0 30px rgba(0, 255, 204, 0.3);
+  }
+
+  h1 {
+    text-align: center;
+    color: #e94560;
+    text-shadow: 0 0 8px #e94560, 0 0 20px #e94560;
+    font-size: 2.2em;
+    border-bottom: 2px dashed #00ffcc;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    color: #00ffcc;
+    text-shadow: 0 0 6px #00ffcc;
+    border-left: 4px solid #e94560;
+    padding-left: 12px;
+    margin-top: 40px;
+    font-size: 1.4em;
+  }
+
+  p {
+    color: #d1fff0;
+    font-size: 1em;
+  }
+
+  .intro::before {
+    content: "> ";
+    color: #e94560;
+  }
+
+  figure {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #00ffcc;
+    box-shadow: 0 0 12px #00ffcc, 0 0 25px rgba(0, 255, 204, 0.4);
+    border-radius: 4px;
+  }
+
+  figcaption {
+    font-style: italic;
+    color: #e94560;
+    margin-top: 12px;
+    font-size: 0.95em;
+    text-shadow: 0 0 4px rgba(233, 69, 96, 0.6);
+  }
+
+  .btn-container {
+    text-align: center;
+    margin-top: 45px;
+    padding-top: 20px;
+    border-top: 2px dashed #00ffcc;
+  }
+
+  .btn-link {
+    display: inline-block;
+    color: #1a1a2e;
+    background-color: #00ffcc;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 14px 28px;
+    border: 2px solid #00ffcc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #00ffcc;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 1px;
+  }
+
+  .btn-link:hover {
+    background-color: #1a1a2e;
+    color: #e94560;
+    border-color: #e94560;
+    box-shadow: 0 0 20px #e94560, 0 0 40px rgba(233, 69, 96, 0.5);
+    transform: scale(1.05);
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #4d4d6a;
+    font-size: 0.8em;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1.15em;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>A World Wide Web Születése</h1>
+
+    <p class="intro">
+      1989-ben, a svájci CERN kutatóintézetében Tim Berners-Lee brit
+      informatikus egy olyan rendszert dolgozott ki, amely forradalmasította
+      az információ megosztását a tudósok között. Célja az volt, hogy a
+      kutatók egyszerűen hivatkozhassanak egymás dokumentumaira, függetlenül
+      attól, hogy azok melyik számítógépen tárolódnak. Ebből az ötletből
+      született meg a World Wide Web, amely hamarosan az egész világot
+      behálózta.
+    </p>
+
+    <h2>Az első weboldal és a NeXTcube</h2>
+
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/First_Web_Server.jpg/800px-First_Web_Server.jpg" alt="Az első webszerver, egy NeXTcube számítógép">
+      <figcaption>
+        A gépre egy cetlit ragasztottak, amin ez állt: "Ezt a gépet ne
+        kapcsold ki, mert ez egy szerver!"
+      </figcaption>
+    </figure>
+
+    <h2>Miért volt ez forradalmi?</h2>
+
+    <p>
+      A HTML nyelv lehetővé tette a dokumentumok egyszerű megformázását és
+      összekapcsolását, az URL-ek egyedi címet adtak minden egyes oldalnak
+      és fájlnak, a HTTP protokoll pedig gyors és megbízható módot biztosított
+      az adatok továbbítására a hálózaton keresztül. E három technológia
+      együttes ereje tette lehetővé, hogy a világháló könnyen bejárható,
+      áttekinthető és bárki számára hozzáférhető legyen.
+    </p>
+
+    <div class="btn-container">
+      <a class="btn-link" href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank" rel="noopener noreferrer">Látogasd meg az eredeti, első weblapot!</a>
+    </div>
+
+    <footer>
+      &copy; 1989 - CERN, Genf, Svájc
+    </footer>
+  </div>
+</body>
+</html>
